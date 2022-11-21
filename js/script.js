@@ -12,7 +12,7 @@ let ageDiscount;
 if (personAge < 18) {
     ageDiscount = totKilometes * 20 / 100;
 } else if (personAge >= 65){
-    ageDiscount = totKilometes * 20 / 100 ;
+    ageDiscount = totKilometes * 40 / 100 ;
 }
 
 
@@ -21,3 +21,7 @@ let totPrice = totKilometes - ageDiscount;
 console.log (totKilometes);
 
 console.log (ageDiscount);
+
+//Print HTML
+
+document.getElementById ("costo-totale") .innerHTML = "Il prezzo è di " + totPrice + " &euro;"
