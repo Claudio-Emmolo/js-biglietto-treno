@@ -21,13 +21,13 @@ if (personAge < 18) {
 }
 
 //Tot Price generator
-let totPrice = totKilometes - ageDiscount;
+let totPrice = (parseFloat (totKilometes - ageDiscount) .toFixed(2));
 
 console.log (totKilometes);
 
 console.log (ageDiscount);
 
-console.log (parseFloat(totPrice).toFixed(2));
+console.log (totPrice);
 
 //Print HTML
 
