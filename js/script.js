@@ -27,6 +27,8 @@ console.log (totKilometes);
 
 console.log (ageDiscount);
 
+console.log (parseFloat(totPrice).toFixed(2));
+
 //Print HTML
 
 document.getElementById ("costo-totale") .innerHTML = "Il prezzo è di " + totPrice + " &euro;"
