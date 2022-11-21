@@ -1,7 +1,12 @@
 // Input
-const kilometres = prompt ("Quanti chilometri dovrai percorrere?");
+let kilometres = parseInt (prompt ("Quanti chilometri dovrai percorrere?"));
 
-const personAge = prompt ("Qual'è la tua età?");
+let personAge = parseInt  (prompt ("Qual'è la tua età?"));
+
+// Convert Number
+console.log(typeof kilometres);
+console.log(typeof personAge);
+
 
 // Km calculation price
 let totKilometes = kilometres * 0.25;
@@ -15,7 +20,7 @@ if (personAge < 18) {
     ageDiscount = totKilometes * 40 / 100 ;
 }
 
-
+//Tot Price generator
 let totPrice = totKilometes - ageDiscount;
 
 console.log (totKilometes);
