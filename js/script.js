@@ -9,7 +9,7 @@ console.log(typeof personAge);
 
 
 // Km calculation price
-let totKilometes = kilometres * 0.25;
+let totKilometes = kilometres * 0.21;
 
 // Discount calculation
 let ageDiscount;
