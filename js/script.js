@@ -27,8 +27,17 @@ console.log (totKilometes);
 
 console.log (ageDiscount);
 
+//Ceck dati
+if (typeof ageDiscount == "undefined") {
+    alert ("Errore, inserisci correttamente i dati :\( ");
+} else {
+    alert ("Complimenti, hai inserito i data correttamente!")
+    alert ("Stiamo processando il totale del biglietto...")
+}
+
+
 console.log (totPrice);
 
-//Print HTML
 
+//Print HTML
 document.getElementById ("costo-totale") .innerHTML = "Il prezzo è di " + totPrice + " &euro;"
